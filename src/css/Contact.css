@@ -1,0 +1,312 @@
+.contact {
+
+    background: #0F172A;
+
+    padding: 100px 10%;
+
+}
+
+
+
+/* Section Title */
+
+.contact .section-title {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+
+.contact .section-title h2 {
+
+    font-size: 45px;
+
+    color: #3B82F6;
+
+}
+
+
+.contact .section-title p {
+
+    color: #94A3B8;
+
+    margin-top: 10px;
+
+}
+
+
+
+/* Contact Grid */
+
+.contact-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 30px;
+
+}
+
+
+
+/* Contact Card */
+
+.contact-card {
+
+    background: rgba(255, 255, 255, .05);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    transition: .35s;
+
+}
+
+
+
+.contact-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(59, 130, 246, .25);
+
+    border-color: #3B82F6;
+
+}
+
+
+
+/* Icon */
+
+.contact-icon {
+
+    font-size: 45px;
+
+    color: #3B82F6;
+
+    margin-bottom: 20px;
+
+    transition: .3s;
+
+}
+
+
+.contact-card:hover .contact-icon {
+
+    transform: rotate(10deg) scale(1.2);
+
+}
+
+
+
+/* Text */
+
+.contact-card h3 {
+
+    color: white;
+
+    margin-bottom: 15px;
+
+    font-size: 22px;
+
+}
+
+
+.contact-card p {
+
+    color: #CBD5E1;
+
+    word-break: break-word;
+
+}
+
+
+
+.contact-card a {
+
+    color: #3B82F6;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    word-break: break-word;
+
+}
+
+
+.contact-card a:hover {
+
+    color: #60A5FA;
+
+}
+
+
+
+/* Copy Email Button */
+
+.copy-email-btn {
+
+    margin-top: 16px;
+
+    border: 1px solid rgba(96, 165, 250, .35);
+
+    background: rgba(59, 130, 246, .16);
+
+    color: #E0F2FE;
+
+    padding: 10px 14px;
+
+    border-radius: 999px;
+
+    cursor: pointer;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    transition: .3s ease;
+
+}
+
+
+
+.copy-email-btn:hover {
+
+    background: rgba(59, 130, 246, .28);
+
+    transform: translateY(-2px);
+
+}
+
+
+
+.copy-email-btn:focus-visible {
+
+    outline: 2px solid #60A5FA;
+
+    outline-offset: 3px;
+
+}
+
+
+
+/* ================= */
+/* Tablet */
+/* ================= */
+
+@media(max-width:1024px) {
+
+
+    .contact {
+
+        padding: 90px 7%;
+
+    }
+
+
+}
+
+
+
+/* ================= */
+/* Mobile */
+/* ================= */
+
+@media(max-width:768px) {
+
+
+    .contact {
+
+        padding: 70px 6%;
+
+    }
+
+
+    .contact .section-title h2 {
+
+        font-size: 35px;
+
+    }
+
+
+    .contact-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+    }
+
+
+    .contact-card {
+
+        padding: 30px 20px;
+
+    }
+
+
+    .contact-icon {
+
+        font-size: 40px;
+
+    }
+
+
+}
+
+
+
+/* Small Phone */
+
+@media(max-width:480px) {
+
+
+    .contact .section-title h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .contact-card h3 {
+
+        font-size: 20px;
+
+    }
+
+
+    .contact-card p,
+
+    .contact-card a {
+
+        font-size: 14px;
+
+    }
+
+
+    .copy-email-btn {
+
+        font-size: 13px;
+
+        padding: 9px 12px;
+
+    }
+
+}

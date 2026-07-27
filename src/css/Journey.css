@@ -1,0 +1,262 @@
+.journey {
+
+    background: #0F172A;
+
+    padding: 100px 10%;
+
+}
+
+
+
+/* Section Title */
+
+.journey .section-title {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+
+.journey .section-title h2 {
+
+    font-size: 45px;
+
+    color: #3B82F6;
+
+}
+
+
+.journey .section-title p {
+
+    color: #94A3B8;
+
+    margin-top: 10px;
+
+}
+
+
+
+/* Layout */
+
+.journey-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 50px;
+
+}
+
+
+
+/* Heading */
+
+.journey-heading {
+
+    color: #3B82F6;
+
+    margin-bottom: 30px;
+
+    font-size: 1.8rem;
+
+}
+
+
+
+/* Timeline */
+
+.timeline-item {
+
+    position: relative;
+
+    margin-bottom: 35px;
+
+    padding: 25px;
+
+    padding-left: 35px;
+
+    background: #1E293B;
+
+    border-radius: 15px;
+
+    border-left: 4px solid #3B82F6;
+
+    transition: .3s;
+
+}
+
+
+.timeline-item:hover {
+
+    transform: translateX(8px);
+
+    box-shadow: 0 10px 25px rgba(59, 130, 246, .25);
+
+}
+
+
+
+/* Timeline Date */
+
+.timeline-item span {
+
+    color: #60A5FA;
+
+    font-weight: 600;
+
+    font-size: .9rem;
+
+}
+
+
+
+/* Title */
+
+.timeline-item h3 {
+
+    margin: 8px 0;
+
+    color: white;
+
+    font-size: 22px;
+
+}
+
+
+.timeline-item h4 {
+
+    color: #CBD5E1;
+
+    margin-bottom: 10px;
+
+    font-weight: 500;
+
+}
+
+
+
+/* Description */
+
+.timeline-item p,
+.timeline-item li {
+
+    color: #94A3B8;
+
+    line-height: 1.7;
+
+}
+
+
+
+.timeline-item ul {
+
+    padding-left: 20px;
+
+    margin-top: 10px;
+
+}
+
+
+
+/* ===================== */
+/* Tablet */
+/* ===================== */
+
+@media(max-width:1024px) {
+
+
+    .journey {
+
+        padding: 90px 7%;
+
+    }
+
+
+    .journey-container {
+
+        gap: 35px;
+
+    }
+
+}
+
+
+
+/* ===================== */
+/* Mobile */
+/* ===================== */
+
+@media(max-width:900px) {
+
+
+    .journey {
+
+        padding: 70px 6%;
+
+    }
+
+
+    .journey-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .journey .section-title h2 {
+
+        font-size: 35px;
+
+    }
+
+
+    .journey-heading {
+
+        font-size: 1.5rem;
+
+    }
+
+
+    .timeline-item {
+
+        padding: 20px;
+
+        padding-left: 25px;
+
+    }
+
+
+}
+
+
+
+/* Small Phone */
+
+@media(max-width:480px) {
+
+
+    .journey .section-title h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .timeline-item h3 {
+
+        font-size: 19px;
+
+    }
+
+
+    .timeline-item p,
+    .timeline-item li {
+
+        font-size: 14px;
+
+    }
+
+}

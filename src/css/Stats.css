@@ -1,0 +1,150 @@
+/* =========================
+   STATS SECTION
+========================= */
+
+.stats {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+    padding: 80px 10%;
+
+    background: #111827;
+
+}
+
+
+
+/* Stat Card */
+
+.stat {
+
+    background: #1E293B;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: .35s;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .2);
+
+}
+
+
+
+.stat:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 35px rgba(59, 130, 246, .3);
+
+}
+
+
+
+/* Number */
+
+.stat h1 {
+
+    font-size: 60px;
+
+    color: #3B82F6;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Label */
+
+.stat p {
+
+    color: #CBD5E1;
+
+    font-size: 18px;
+
+}
+
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:1024px) {
+
+
+    .stats {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        padding: 70px 7%;
+
+    }
+
+
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px) {
+
+
+    .stats {
+
+        grid-template-columns: 1fr;
+
+        padding: 60px 6%;
+
+    }
+
+
+    .stat h1 {
+
+        font-size: 45px;
+
+    }
+
+
+    .stat p {
+
+        font-size: 16px;
+
+    }
+
+
+}
+
+
+
+/* Small Phone */
+
+@media(max-width:480px) {
+
+
+    .stat {
+
+        padding: 25px;
+
+    }
+
+
+    .stat h1 {
+
+        font-size: 38px;
+
+    }
+
+
+}
