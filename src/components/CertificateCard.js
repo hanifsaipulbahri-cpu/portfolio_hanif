@@ -8,7 +8,11 @@ function CertificateCard({ certificate }) {
   return (
     <div className="certificate-card">
       <div className="certificate-preview">
-        <Document file={certificate.link}>
+        <Document
+          file={certificate.link}
+          loading={<div className="preview-loading">Loading preview…</div>}
+          error={<div className="preview-loading">Certificate preview</div>}
+        >
           <Page
             pageNumber={1}
             width={320}

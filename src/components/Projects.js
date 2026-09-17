@@ -1,5 +1,3 @@
-import "../css/Projects.css";
-
 import projects from "../data/projects";
 
 import ProjectCard from "./ProjectCard";
@@ -27,10 +25,10 @@ function Projects() {
 
       <div className="projects-grid">
 
-        {projects.map((project, index) => (
+        {projects.map((project) => (
 
           <ProjectCard
-            key={index}
+            key={project.id}
             project={project}
           />
 

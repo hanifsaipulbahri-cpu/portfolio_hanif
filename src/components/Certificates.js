@@ -1,4 +1,3 @@
-import "../css/Certificates.css";
 import certificates from "../data/certificates";
 import CertificateCard from "./CertificateCard";
 
@@ -11,8 +10,8 @@ function Certificates() {
       </div>
 
       <div className="certificate-grid">
-        {certificates.map((certificate, index) => (
-          <CertificateCard key={index} certificate={certificate} />
+        {certificates.map((certificate) => (
+          <CertificateCard key={certificate.title} certificate={certificate} />
         ))}
       </div>
     </section>

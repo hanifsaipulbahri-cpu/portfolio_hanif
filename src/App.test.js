@@ -11,8 +11,7 @@ test('copies the email address when the copy button is clicked', async () => {
 
   render(<Contact />);
 
-  const user = userEvent.setup();
-  await user.click(screen.getByRole('button', { name: /copy email/i }));
+  userEvent.click(screen.getByRole('button', { name: /copy email/i }));
 
   expect(writeText).toHaveBeenCalledWith('hanif.saipulbahri@gmail.com');
   expect(await screen.findByText(/copied!/i)).toBeInTheDocument();

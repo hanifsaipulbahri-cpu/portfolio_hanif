@@ -1,4 +1,3 @@
-import "../css/About.css";
 import p1 from "../assets/p1.jpeg";
 import p2 from "../assets/p2.jpeg";
 import p3 from "../assets/p3.jpeg";
@@ -12,6 +11,10 @@ function About() {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return undefined;
+    }
+
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
     }, 3000);
@@ -37,7 +40,8 @@ function About() {
           <motion.img
             key={currentImage}
             src={images[currentImage]}
-            alt="Hanif"
+            alt="Hanif working on engineering and software projects"
+            loading="lazy"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}

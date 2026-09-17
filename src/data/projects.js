@@ -11,6 +11,7 @@ import g2 from "../assets/projects/greensense/g2.jpeg";
 import g3 from "../assets/projects/greensense/g3.jpeg";
 import g4 from "../assets/projects/greensense/g4.jpeg";
 import g5 from "../assets/projects/greensense/g5.jpeg";
+import g6 from "../assets/projects/greensense/g6.png";
 
 // Smart Parking Images
 import p1 from "../assets/projects/smart-parking/p1.jpeg";
@@ -36,11 +37,11 @@ const projects = [
 
     year: "2026",
 
-    image: [g1, g2, g3, g4, g5],
+    image: [g1, g2, g3, g4, g5, g6],
 
     award: "🥇 Gold Award",
 
-    competition: "RISE UTHM 2026",
+    competition: "RISE UTHM 2026 & IIICe UTHM 2026",
 
     role: "Full Stack Developer for Water Quality Monitoring System",
 
@@ -48,7 +49,7 @@ const projects = [
       "IoT-based Smart Hydroponic & Aquaponic Monitoring System for real-time water quality monitoring.",
 
     achievement:
-      "Gold Award - International Research & Innovation Symposium Competition (RISE) UTHM 2026.",
+      "Gold Award - International Research & Innovation Symposium Competition (RISE) UTHM 2026 & International Innovation & Creativity Competition (IIICe) UTHM 2026",
 
     technologies: [
       "ESP32",
@@ -61,9 +62,6 @@ const projects = [
       "SVM",
     ],
 
-    github: "#",
-
-    demo: "#",
   },
 
   {
@@ -90,9 +88,6 @@ const projects = [
 
     technologies: ["ESP32", "Python", "Firebase"],
 
-    github: "#",
-
-    demo: "#",
   },
 
   {
@@ -119,9 +114,6 @@ const projects = [
 
     technologies: ["ESP32", "ESP32-CAM", "Python", "Roboflow"],
 
-    github: "#",
-
-    demo: "#",
   },
 
   {
@@ -149,9 +141,6 @@ const projects = [
 
     technologies: ["React", "Spring Boot", "MongoDB", "REST API", "JWT"],
 
-    github: "#",
-
-    demo: "#",
   },
 ];
 

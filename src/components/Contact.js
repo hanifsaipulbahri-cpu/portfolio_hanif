@@ -1,4 +1,3 @@
-import "../css/Contact.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -22,8 +21,8 @@ function Contact() {
       await navigator.clipboard.writeText("hanif.saipulbahri@gmail.com");
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
-    } catch (error) {
-      console.error("Unable to copy email", error);
+    } catch {
+      setCopied(false);
     }
   };
 

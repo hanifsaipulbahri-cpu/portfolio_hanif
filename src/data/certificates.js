@@ -1,7 +1,7 @@
 import oracleADB from "../assets/certificates/eCertificate_ Oracle_Autonomous_Database.pdf";
 import oracleData from "../assets/certificates/eCertificate_ Oracle_Data_Platform.pdf";
 import oracleMySQL from "../assets/certificates/eCertificate_Oracle_MySQL_Heatwave.pdf";
-import fullstack from "../assets/certificates/cert_sena_traffic_system.pdf";
+import fullstack from "../assets/certificates/CCSD_MOHAMMAD HANIF.pdf";
 import aiot from "../assets/certificates/Certificate_AIOT.pdf";
 import ftth from "../assets/certificates/Certificate_CA1C.pdf";
 

@@ -1,5 +1,3 @@
-import "../css/Journey.css";
-
 function Journey() {
   return (
     <section id="journey" className="journey">
