@@ -1,14 +1,22 @@
 const skills = [
   {
     category: "Programming Languages",
-    items: ["Java", "Python", "JavaScript", "PHP", "HTML5", "CSS3", "SQL"],
+    items: [
+      "Java", 
+      "Python", 
+      "JavaScript", 
+      "PHP", 
+      "CSS", 
+      "SQL",
+      "TypeScript",
+      "C++",
+    ],
   },
 
   {
     category: "Frontend Development",
     items: [
       "React.js",
-      "Bootstrap",
       "Responsive Design",
       "Framer Motion",
       "Vite",
@@ -28,7 +36,13 @@ const skills = [
 
   {
     category: "Database",
-    items: ["MySQL", "Oracle Database", "MongoDB", "SQLyog"],
+    items: [
+      "MySQL", 
+      "Oracle Database", 
+      "MongoDB", 
+      "SQLyog",
+      "DBeaver",
+    ],
   },
 
   {
@@ -37,18 +51,26 @@ const skills = [
       "ESP32",
       "Arduino",
       "NodeMCU",
+      "FPGA",
       "RFID",
       "DS18B20",
       "pH Sensor",
       "TDS Sensor",
       "RS485",
       "NPK Sensor",
+      "Other Sensors",
     ],
   },
 
   {
     category: "Artificial Intelligence",
-    items: ["Machine Learning", "LSTM", "SVM", "YOLO", "Roboflow"],
+    items: [
+      "Machine Learning", 
+      "LSTM", 
+      "SVM", 
+      "YOLO", 
+      "Roboflow"
+    ],
   },
 
   {
@@ -68,7 +90,6 @@ const skills = [
   {
     category: "Tools & Technologies",
     items: [
-      "Git",
       "GitHub",
       "Postman",
       "VS Code",

@@ -102,6 +102,8 @@ function About() {
               <li>System Administrator</li>
               <li>Database Administrator</li>
               <li>IT Support Engineer</li>
+              <li>Mobile Developer</li>
+              <li>Frontend Developer</li>
             </ul>
           </div>
         </motion.div>

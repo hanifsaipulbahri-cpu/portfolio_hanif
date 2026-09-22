@@ -1,4 +1,4 @@
-import profile from "../assets/hanif.jpg";
+import profile from "../assets/hanif.png";
 import resume from "../assets/Resume.pdf";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";

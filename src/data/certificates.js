@@ -36,7 +36,7 @@ const certificates = [
   {
     title: "Certified Full Stack Java with AI",
     issuer: "Professional Training",
-    year: "2025",
+    year: "2026",
     description:
       "Completed training in Spring Boot, React.js, REST APIs, MongoDB, and AI integration.",
     link: fullstack,
@@ -54,7 +54,7 @@ const certificates = [
   {
     title: "Certificate of Proficiency – CA1C Fiber-To-The-Home (FTTH)",
     issuer: "Professional Training",
-    year: "2023",
+    year: "2025",
     description:
       "Completed practical training in FTTH indoor installation and testing.",
     link: ftth,

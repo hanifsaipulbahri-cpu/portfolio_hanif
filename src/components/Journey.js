@@ -18,7 +18,7 @@ function Journey() {
                 Bachelor's in Electronic Engineering with Honours (Computer)
               </h3>
               <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
-              <p>Current CGPA: 3.70</p>
+              <p>Current CGPA: 3.73</p>
             </div>
 
             <div className="timeline-item">
